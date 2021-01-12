@@ -6,6 +6,7 @@ html{
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: 'Allerta Stencil';font-size: 22px;
 }
 .header{
     width: 100%;
