@@ -392,3 +392,13 @@ i{
         margin: 30px 0; 
     }
 }
+.changetext::after{
+    content: '';
+    animation: changetext 6s infinite linear;
+    color: blueviolet;
+} 
+@keyframes changetext{
+    0%{content: "Image Compressor";}
+    50%{content: "Uber Ride Predictor";}
+    100%{content: "Dino Vs Dragon Game";}
+}
